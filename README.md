@@ -26,22 +26,24 @@ A responsive React web application for shortening URLs, viewing statistics, and 
 ```bash
 git clone https://github.com/PadmajeetDoddannavar/R22EQ020.git
 cd url-shortener-frontend
-```bash
+```
 Install dependencies:
 
-bash
-Copy code
+```bash
+
 npm install
+```
 Start the development server:
 
-bash
-Copy code
+```bash
+
 npm start
+```
 Open your browser at http://localhost:3000
 
 Project Structure
-bash
-Copy code
+```bash
+
 /url-shortener-frontend
  ├─ /public
  ├─ /src
@@ -53,6 +55,7 @@ Copy code
  │   └─ index.js
  ├─ package.json
  └─ .gitignore
+```
 Usage
 Enter one or more long URLs to shorten them.
 
