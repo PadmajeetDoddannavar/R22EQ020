@@ -56,38 +56,49 @@ Project Structure
  ├─ package.json
  └─ .gitignore
 ```
-Usage
-Enter one or more long URLs to shorten them.
+## Usage
+- Enter one or more long URLs to shorten them.
+- Optionally specify:
+  - Validity period (minutes)
+  - Custom shortcode
+- Click the shortened URL to redirect to the original URL.
+- View statistics and click tracking on the Statistics page.
+- Expired URLs are automatically indicated.
 
-Optionally specify:
+---
 
-Validity period (minutes)
+## Technologies Used
+- **React** – Frontend framework
+- **Material UI** – Styling components
+- **Framer Motion** – Animations and transitions
+- **localStorage** – Client-side data persistence
 
-Custom shortcode
+---
 
-Click the shortened URL to redirect to the original URL.
+## Deployment
+- Run `npm run build` for production build.
+- Deploy using any static hosting service like **Netlify** or **Vercel**.
 
-View statistics and click tracking on the Statistics page.
+---
 
-Expired URLs are automatically indicated.
+## Notes
+- The app runs exclusively on [http://localhost:3000](http://localhost:3000)
+- All logging is done using the custom logging middleware
+- Client-side validation ensures URLs and shortcodes are unique and valid
 
-Technologies Used
-React – Frontend framework
+---
 
-Material UI – Styling components
+## Authors
+- **Padmajeet Doddannavar** – Initial work
+- See the list of contributors who participated in this project.
 
-Framer Motion – Animations and transitions
+---
 
-localStorage – Client-side data persistence
+## License
+This project is licensed under the **MIT License** – see the `LICENSE.md` file for details.
 
-Deployment
-Run npm run build for production build
+---
 
-Deploy using any static hosting service like Netlify or Vercel
-
-Notes
-The app runs exclusively on http://localhost:3000
-
-All logging is done using the custom logging middleware
-
-Client-side validation ensures URLs and shortcodes are unique and valid
+## Acknowledgments
+- Inspiration from various URL shortener tools
+- Hat tip to anyone whose code, libraries, or tutorials were used
