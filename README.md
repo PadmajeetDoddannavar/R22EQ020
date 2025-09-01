@@ -26,6 +26,7 @@ A responsive React web application for shortening URLs, viewing statistics, and 
 ```bash
 git clone https://github.com/PadmajeetDoddannavar/R22EQ020.git
 cd url-shortener-frontend
+```bash
 Install dependencies:
 
 bash
